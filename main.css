@@ -1,0 +1,46 @@
+
+body {
+background-image: url("back1.png");
+
+
+}
+
+
+#panel {
+border-style:solid;
+border:1 px solid;
+border-color:grey;
+border-radius: 25px;
+text-align: center;
+width: 400px;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+}
+
+.button {
+width:85px;
+}
+.status {
+text-align: center;
+}
+#status,#stat {
+display:block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+border-style:solid;
+border:1 px solid;
+border-radius: 25px;
+border-color:grey;
+
+
+}
+
+
+
+#title {
+text-align: center;
+}
+
+

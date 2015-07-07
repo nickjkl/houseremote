@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="main.css">
+<title>Cpannel</title></head>
+<body>
+<div id="title">Sensors</div>
+
+
+
+
+<div id="panel">
+<div>
+<form  method='post' action="task5.php" target="stat">
+<input type='submit' name='button1' value='Read Photo' id="buttona" class="button"/>
+</form>
+<form  method='post' action="task6.php" target="stat">
+<input type='submit' name="button3" value='Read Temp' id="buttonc" class="button"/>
+</form>
+<form  method='post' action="data.php" target="stat">
+<input type='submit' name="button4" value='Clear' id="buttond" class="button"/>
+</form> 
+</div>
+</div>
+<br />
+<div class="center">Status</div>
+<div class="output">
+<iframe class="status" src="" name="stat"></iframe>
+</div>
+<div id="title">Control</div>
+<div id="panel">
+<div>
+<form  method='post' action="task1.php" target="control">
+<input type='submit' name='button5' value='Ob1 on' id="buttone" class="button"/>
+</form>
+<form  method='post' action="task2.php" target="control">
+<input type='submit' name='button6' value='Ob1 off' id="buttonf" class="button"/>
+</form>
+<form  method='post' action="task3.php" target="control">
+<input type='submit' name="button7" value='Ob2 on' id="buttong" class="button"/>
+</form>
+<form  method='post' action="task4.php" target="control">
+<input type='submit' name="button8" value='Ob2 off' id="buttonh" class="button"/>
+</form>
+<form  method='post' action="data.php" target="stat">
+<input type='submit' name="button9" value='disp' id="buttoni" class="button"/>
+</form> 
+</div>
+</div>
+<br />
+<div class="center">Control Status</div>
+<div class="output">
+<iframe class="status" src="" name="control"></iframe>
+</div>
+
+
+
+</body>
+
+</html>
