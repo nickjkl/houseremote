@@ -3,7 +3,12 @@
 <link rel="stylesheet" type="text/css" href="main.css">
 <title>Cpannel</title></head>
 <body>
-<div id="title">Sensors</div>
+<div class="title">Alert Log</div>
+<div class="output">
+<iframe class="alert" src="error.txt" name="stat"></iframe>
+</div>
+<br />
+<div class="title">Sensors</div>
 
 
 
@@ -26,7 +31,7 @@
 <div class="output">
 <iframe class="status" src="" name="stat"></iframe>
 </div>
-<div id="title">Control</div>
+<div class="title">Control</div>
 <div id="panel">
 <div>
 <form  method='post' action="task1.php" target="control">

@@ -36,7 +36,7 @@ background-color:black;
 
 
 
-#title {
+.title {
 text-align: center;
 }
 form {
@@ -66,3 +66,14 @@ text-align:center;
 color:white;
 
 }
+
+
+.alert {
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+border-style:solid;
+border:1 px solid;
+border-radius: 15px;
+border-color:grey;
+background-color:blue;
