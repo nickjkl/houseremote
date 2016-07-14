@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="main.css">
+<title>Cpannel</title></head>
+<body>
+<div id="title">Sensors</div>
+
+
+
+
+<div id="panel">
+<div>
+<form  method='post'>
+<input type='submit' name='button1' value='Read Photo' id="buttona" class="button"/>
+<input type='submit' name="button3" value='Read Temp' id="buttonc" class="button"/>
+<input type='submit' name="button4" value='Clear' id="buttond" class="button"/>
+</form> 
+</div>
+</div>
+<br />
+<div class="center">Status</div>
+<div class="output">
+<iframe id="stat" src="" name="stat"></iframe>
+</div>
+<div id="title">Control</div>
+<div id="panel">
+<div>
+<form  method='post'>
+<input type='submit' name='button5' value='Ob1 on' id="buttone" class="button"/>
+<input type='submit' name='button6' value='Ob1 off' id="buttonf" class="button"/>
+<input type='submit' name="button7" value='Ob2 on' id="buttong" class="button"/>
+<input type='submit' name="button8" value='Ob2 off' id="buttonh" class="button"/>
+</form>
+<form  method='post' action="data.php" target="stat">
+<input type='submit' name="button9" value='disp' id="buttoni" class="button"/>
+</form> 
+</div>
+</div>
+
+
+<br />
+<div class="output">
+<span>Sensor status</span><span>Control Status</span>
+<div class="output">
+<iframe id="stat" src="" name="stat"></iframe>
+<iframe id="temp" src="" name="temp"></iframe>
+</div>
+</body>
+
+</html>

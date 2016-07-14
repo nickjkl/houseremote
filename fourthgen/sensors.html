@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="main.css">
+<title>Cpannel-Sensors</title></head>
+<body>
+<div class="navbarcontainer">
+<div class="navbar"><a href="index.html">Control</a> | <a href="sensors.html">Sensors</a> | <a 
+href="alert.html">Alerts</a> </div></div>
+<br />
+<div class="title">Sensors</div>
+<div class="panelcontainer">
+<div class="panel">
+<div>
+<form  method='post' action="task5.php" target="stat">
+<input type='submit' name='button1' value='Read Photo' id="buttona" class="button"/>
+</form>
+<form  method='post' action="task6.php" target="stat">
+<input type='submit' name="button2" value='Read Temp' id="buttonc" class="button"/>
+</form>
+<form  method='post' action="task7.php" target="stat">
+<input type='submit' name="button3" value='Log Temp' id="buttonb" class="button"/>
+</form>
+<form  method='post' action="task8.php" target="stat">
+<input type='submit' name="button4" value='Stop Log' id="buttonb" class="button"/>
+</form>
+
+<form  method='post' action="empty.html" target="stat">
+<input type='submit' name="button5" value='Clear' id="buttond" class="button"/>
+</form> 
+</div>
+</div>
+</div>
+<br />
+<div class="center">Status</div>
+<div class="output">
+<iframe class="status" src="" name="stat"></iframe>
+</div>
+</body>
+</html>
